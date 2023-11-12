@@ -22,10 +22,10 @@ const MainNavigation = (props) => {
           name="ProfileScreen"
           component={ProfileScreen}
           options={{
-            headerTitle: "",
+            headerTitle: "User Name",
             headerTransparent: true,
-            headerBackTitle: "",
-            headerBackTitleVisible: false,
+            headerBackTitle: "User Name",
+            headerBackTitleVisible: true,
             headerBackTitleStyle: {
               opacity: 0,
               top: "5%",

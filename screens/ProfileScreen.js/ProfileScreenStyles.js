@@ -7,7 +7,13 @@ const styles = StyleSheet.create({
     alignItems: "center",
     backgroundColor: "#FEFAE0",
   },
+  profileScrollContainer: {
+    marginTop: "30%",
+    height: "auto",
+    alignItems: "center"
+  },
   profileImageContainer: {
+    marginTop: "5%",
     height: 120,
     width: 120,
     backgroundColor: "grey",

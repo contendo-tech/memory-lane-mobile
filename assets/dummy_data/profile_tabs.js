@@ -4,15 +4,15 @@ import { Ionicons } from '@expo/vector-icons';
 const mediaTabs = [
     {
         name: "media",
-        image: (<Entypo name="grid" size={26} color="black" />)
+        image: "grid"
     },
     {
         name: "biography",
-        image: (<Ionicons name="book-outline" size={24} color="black" />)
+        image: "open-book"
     },
     {
         name: "family tree",
-        image: (<Entypo name="tree" size={24} color="black" />)
+        image: "tree"
     }
 ]
 export default mediaTabs; 
