@@ -20,15 +20,13 @@ const renderImages = (photo) => {
 const MediaGrid = () => {
     return (
         <View style={styles.mediaGridContainter}>
-            <Text>MediaGrid</Text>
-            {/* <FlatList
+            <FlatList
                 horizontal={false}
                 keyExtractor={(item, index) => index.toString()}
                 numColumns={3}
                 data={stockPhotos}
                 renderItem={renderImages}
-                style={styles.gridContainer}
-            /> */}
+            />
         </View >
     )
 }

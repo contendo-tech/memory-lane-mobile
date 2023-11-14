@@ -10,14 +10,7 @@ const ProfileTabView = (props) => {
     const [activeIndex, setActiveIndex] = useState(0)
     return (
         <View style={styles.profileTabViewContainer}>
-            <ScrollView horizontal
-                showsHorizontalScrollIndicator={false}
-                scrollEnabled={false}
-                contentContainerStyle={{
-                    // alignItems: "center",
-                    gap: 50,
-                    paddingHorizontal: 10
-                }}>
+            <View style={styles.mediaTabContainer}>
                 {mediaTabs.map((item, index) => (
                     <TouchableOpacity
                         key={index}
@@ -29,7 +22,8 @@ const ProfileTabView = (props) => {
                         <Entypo name={item.image} size={24} color={activeIndex === index ? "black" : "grey"} />
                     </TouchableOpacity>
                 ))}
-            </ScrollView>
+            </View>
+            <MediaGrid />
         </View>
     )
 }
