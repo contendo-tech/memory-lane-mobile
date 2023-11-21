@@ -3,9 +3,10 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
   profileScreenContainer: {
     flex: 1,
+    paddingVertical: "20%",
     // justifyContent: "center",
     alignItems: "center",
-    backgroundColor: "#FEFAE0",
+    // backgroundColor: "#FEFAE0",
   },
   profileScrollContainer: {
     marginTop: "30%",
