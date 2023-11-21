@@ -4,7 +4,7 @@ import { Entypo } from "@expo/vector-icons";
 import { createStackNavigator } from "@react-navigation/stack";
 import { NavigationContainer } from "@react-navigation/native";
 import LandingScreen from "../screens/LandingScreen/LandingScreen";
-import ProfileScreen from "../screens/ProfileScreen.js/ProfileScreen";
+import ProfileScreen from "../screens/ProfileScreen/ProfileScreen";
 
 const Stack = createStackNavigator();
 const MainNavigation = (props) => {

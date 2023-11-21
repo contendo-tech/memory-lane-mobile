@@ -14,7 +14,6 @@ const activePage = {
 };
 
 const showActivePage = (index) => {
-  console.log(activePage[index]);
   return activePage[index];
 };
 
