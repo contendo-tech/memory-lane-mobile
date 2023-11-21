@@ -1,12 +1,12 @@
-import { View, Text } from 'react-native'
-import React from 'react'
-
+import React from "react";
+import { View, Text } from "react-native";
+import styles from "./BiographyScreenStyles";
 const BiographyScreen = () => {
-    return (
-        <View>
-            <Text>BiographyScreen</Text>
-        </View>
-    )
-}
+  return (
+    <View style={styles.bioScreenContainter}>
+      <Text>BiographyScreen</Text>
+    </View>
+  );
+};
 
 export default BiographyScreen;
