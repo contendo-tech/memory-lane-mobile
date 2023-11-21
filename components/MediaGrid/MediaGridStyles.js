@@ -4,20 +4,21 @@ let deviceHeight = Dimensions.get('window').height
 
 const styles = StyleSheet.create({
     mediaGridContainter: {
-        borderColor: "black",
-        borderWidth: 2,
-        width: deviceWidth,
-        height: "auto"
-    },
-    gridContainer: {
-        top: "20%",
+        flex: 1,
+        // borderColor: "black",
+        // borderWidth: 2,
+        width: "100%",
+        // height: "auto"
+        top: 5,
+
     },
     imageContainer: {
         justifyContent: "space-between",
         alignItems: "center",
     },
     image: {
-        // margin: 5,
+        marginRight: 3,
+        marginBottom: 3,
         height: deviceWidth / 3,
         width: deviceWidth / 3,
     },
